@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif; background: #f4f6fb; color: #223; }
+h2 { font-size: 16px; margin: 22px 0 10px; }
+h3 { font-size: 14px; margin: 4px 0 10px; }
+button { font: inherit; border: 1px solid #ccd3e0; background: #fff; border-radius: 6px; padding: 6px 12px; cursor: pointer; font-size: 13px; }
+button:hover { border-color: #4c6ef5; }
+button.primary { background: #4c6ef5; border-color: #4c6ef5; color: #fff; }
+button.danger { background: #fff; border-color: #e0a49e; color: #c0392b; }
+button.ghost { background: #f6f8fd; }
+button.warn { border-color: #f0c36d; color: #92610a; }
+.card { background: #fff; border: 1px solid #e2e6ee; border-radius: 10px; padding: 14px 16px; margin-bottom: 14px; }
+.card-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 6px; }
+.tag { background: #eef2ff; color: #3b5bdb; border-radius: 4px; padding: 1px 8px; font-size: 12px; }
+.tag-red { background: #fdecea; color: #a5281b; }
+.muted { color: #8a93a6; font-size: 12px; }
+.toast { background: #e8f0fe; border: 1px solid #b9ccf5; color: #1a56c4; padding: 8px 12px; border-radius: 8px; margin: 8px 0; font-size: 13px; }
+.reject-box { background: #fdecea; color: #a5281b; border: 1px solid #f5c6c0; border-radius: 8px; padding: 8px 10px; font-size: 13px; margin: 6px 0; }
+table.grid { width: 100%; border-collapse: collapse; font-size: 13px; background: #fff; }
+table.grid th, table.grid td { text-align: left; padding: 7px 10px; border-bottom: 1px solid #edf0f6; }
+table.grid th { color: #667; font-weight: 600; background: #f8fafd; }
